@@ -1,0 +1,75 @@
+#loginForm {
+    background-color: white;
+    width: 630px;
+    height: 100vh;
+    margin: auto;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.formDiv {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form-control {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.emailDiv {
+    transform: translateX(237px);
+}
+
+.passwordDiv {
+    transform: translate(-243px, 88px);
+}
+
+.input-group {
+    width: 480px;
+}
+
+a {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.linkPassword {
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    transform: translate(-77px, 90px);
+}
+
+.buttonDiv {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    transform: translateY(90px);
+}
+
+.btn {
+    border-radius: 30px;
+    height: 50px;
+    width: 480px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-primary {
+    background-image: linear-gradient(to right, #03d3fc , #fc2bf2);
+    border-image: linear-gradient(to right, #19d9ff , #fc2bf2);
+}
