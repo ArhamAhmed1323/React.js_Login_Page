@@ -9,42 +9,39 @@ class LoginPage extends Component {
         return(
             <div id="mainPage">
                 <div id="loginForm">
+                    
                     <div className="heading">
                         <p> Login </p>
                     </div>
                     
-                    <div className="formDiv">
-                        <div className="emailDiv">
-                            <label> Email </label>
-                            <InputGroup className="mb-3">
-                                <InputGroup.Prepend>
-                                    <InputGroup.Text id="basic-addon1">
-                                        <FontAwesomeIcon icon={faUserCircle} size="lg" style={{ color:"#495057" }}/>
-                                    </InputGroup.Text>
-                                </InputGroup.Prepend>                        
+                    <div className="FormDiv">
+                        <label className="LabelName"> Email </label>
+                        <InputGroup className="mb-3">
+                            <InputGroup.Prepend>
+                                <InputGroup.Text id="basic-addon1">
+                                    <FontAwesomeIcon icon={faUserCircle} size="lg" style={{ color:"#495057" }}/>
+                                </InputGroup.Text>
+                            </InputGroup.Prepend>                        
 
-                                <FormControl
-                                    type="email"
-                                    placeholder="Enter Email"
-                                />
-                            </InputGroup>
-                        </div>
+                            <FormControl
+                                type="email"
+                                placeholder="Enter Email"
+                            />
+                        </InputGroup>
 
-                        <div className="passwordDiv">
-                            <label> Password </label>
-                            <InputGroup className="mb-3">
-                                <InputGroup.Prepend>
-                                    <InputGroup.Text id="basic-addon1">
-                                        <FontAwesomeIcon icon={faLock} size="lg" style={{ color:"#495057" }}/>
-                                    </InputGroup.Text>
-                                </InputGroup.Prepend>
+                        <label className="LabelName"> Password </label>
+                        <InputGroup className="mb-3">
+                            <InputGroup.Prepend>
+                                <InputGroup.Text id="basic-addon1">
+                                    <FontAwesomeIcon icon={faLock} size="lg" style={{ color:"#495057" }}/>
+                                </InputGroup.Text>
+                            </InputGroup.Prepend>
                         
-                                <FormControl
-                                    type="password"
-                                    placeholder="Enter Password"
-                                />
-                            </InputGroup>
-                        </div>    
+                            <FormControl
+                                type="password"
+                                placeholder="Enter Password"
+                            />
+                        </InputGroup>
                     </div>
 
                     <div className="linkPassword">
